@@ -1,6 +1,8 @@
 @extends('template.master')
 
 @section('content')
+
+<div class="content-wrapper">
 <div class="card card-primary">
               <div class="card-header">
                 <h3 class="card-title">Form Input Data Buku</h3>
@@ -24,6 +26,7 @@
                     <label for="exampleInputEmail1">Stok Buku</label>
                     <input type="number" class="form-control" name="stok" placeholder="Input Sisa Stock">
                   </div>
+</div>
                 <!-- /.card-body -->
 
                 <div class="card-footer">
